@@ -1,3 +1,5 @@
+import ast
+
 arr = [1, 2, 3, 4, 5, "Apple", "Banana"]
 print(arr)
 
@@ -21,3 +23,30 @@ print(arr.pop(1)) # index
 print(arr)
 arr.insert(1,2)
 print(arr)
+print()
+# Copy Of The Lists
+brr = arr.copy()
+print(brr)
+arr[0] = 100
+print(brr)
+print(arr)
+
+# To Find index
+print(arr.index(4))
+
+# To Extend The List
+arr.extend(brr)
+print(arr)
+
+# Reverse List
+arr.reverse()
+print(arr)
+
+# Sort The List
+a = [3,4,1,2,5]
+a.sort()
+print(a)
+
+# To Clear All Data
+a.clear()
+print(a)
