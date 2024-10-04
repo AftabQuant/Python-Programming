@@ -12,7 +12,7 @@ print()
 [print(i, end=" ") for i in ar]
 print()
 
-# Slicing The Tuples
+# Slicing The json Func
 print(ar[1: 5])
 print(ar[5:])
 print(ar[:: -1])
