@@ -2,6 +2,9 @@ ar = (1, 2, 3, 4, 5, "Apple", "Banana", "Cherry")
 print(ar)
 print(type(ar))
 
+print("Length Of Tuple Is: ", len(ar))
+print("Index Of Element: ",ar.index(5))
+
 for i in ar:
     print(i, end=" ")
 print()
