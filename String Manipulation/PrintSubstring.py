@@ -8,15 +8,16 @@ for i in range (0, len(s)):
 
 for i in range(len(s)):
     if i % 2 == 0:
-        print( s[i])
+        print( s[i], end=" ")
+print()
 for i in range(len(s)):
     if i % 2 != 0:
-        print( s[i])
+        print( s[i], end=" ")
+print()
 
-p = ""
-s = "af {}"
-for i in s:
-    if i not in p:
-        p += i
-print(p)
-print(p.format(s))
+# Merge Two String
+a = "abc {}"
+b = "cde"
+c = "fgh"
+print(a.format(b))
+
